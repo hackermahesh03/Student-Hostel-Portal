@@ -1,4 +1,4 @@
-# Hostel Management System
+# Student Hostel Portal
 
 HOW TO RUN?
 
