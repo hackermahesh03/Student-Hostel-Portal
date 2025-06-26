@@ -4,92 +4,88 @@ A full-stack web application designed to streamline hostel management for studen
 
 ## 🚀 Features
 
-- 🔐 **User Authentication**: Secure signup and login for students.
-- 🏠 **Room Listings**: Browse available boys’ and girls’ hostel rooms with images and pricing.
-- 📝 **Complaint Management**: Submit and track previous complaints directly from the portal.
-- 💬 **Contact History**: View past contact messages and replies.
+* 🔐 **User Authentication**: Secure signup and login for students.
+* 🏠 **Room Listings**: Browse available boys’ and girls’ hostel rooms with images and pricing.
+* 📝 **Complaint Management**: Submit and track previous complaints directly from the portal.
+* 💬 **Contact History**: View past contact messages and replies.
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: Angular
-- **Backend**: Node.js + Express.js
-- **Database**: MongoDB
-- **Authentication**: JWT-based
-- **Others**: Nodemon, MongoDB Compass, .env configuration
+* **Frontend**: Angular
+* **Backend**: Node.js + Express.js
+* **Database**: MongoDB
+* **Authentication**: JWT-based
+* **Others**: Nodemon, MongoDB Compass, .env configuration
 
 ## 📂 Project Structure
 
+```
 HostelManagementSystem/
-├── server/ # Backend APIs (controllers, models, routers, etc.)
-├── src/ # Angular frontend (components, modules, etc.)
-├── .env # Environment configuration file
-├── package.json # Node dependencies
-├── README.md # Project documentation
+├── server/                 # Backend APIs (controllers, models, routers, etc.)
+├── src/                   # Angular frontend (components, modules, etc.)
+├── .env                   # Environment configuration file
+├── package.json           # Node dependencies
+├── README.md              # Project documentation
 └── ...other config files
-
-bash
-Copy
-Edit
+```
 
 ## ⚙️ Setup Instructions
 
 1. **Clone the Repository**
+
    ```bash
    git clone https://github.com/your-username/hostel-management-portal.git
-Navigate and Install Dependencies
+   ```
 
-bash
-Copy
-Edit
-cd hostelManagement
-npm install
-Create .env File
+2. **Navigate and Install Dependencies**
 
-Copy the content from .env.sample into a new file named .env.
+   ```bash
+   cd hostelManagement
+   npm install
+   ```
 
-Start MongoDB
+3. **Create ****`.env`**** File**
 
-Open MongoDB Compass and ensure the hostel database is accessible.
+   * Copy the content from `.env.sample` into a new file named `.env`.
 
-Run Project
+4. **Start MongoDB**
 
-Open two terminals inside the project directory.
+   * Open MongoDB Compass and ensure the `hostel` database is accessible.
 
-Terminal 1 (Frontend)
+5. **Run Project**
 
-powershell
-Copy
-Edit
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-$env:NODE_OPTIONS="--openssl-legacy-provider"
-npm run start
-Terminal 2 (Backend)
+   * Open **two terminals** inside the project directory.
 
-powershell
-Copy
-Edit
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-npm run server
-Access Application
+   **Terminal 1 (Frontend)**
 
-arduino
-Copy
-Edit
-http://localhost:4200/
-✅ Status
- Authentication System
+   ```powershell
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+   $env:NODE_OPTIONS="--openssl-legacy-provider"
+   npm run start
+   ```
 
- Room Listings with Pricing
+   **Terminal 2 (Backend)**
 
- Complaint System
+   ```powershell
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+   npm run server
+   ```
 
- MongoDB Integration
+6. **Access Application**
 
- Admin Panel (Future Scope)
+   ```
+   http://localhost:4200/
+   ```
 
-📌 Notes
-✅ Do not upload the node_modules/ folder to GitHub. Add it in your .gitignore file.
+## ✅ Status
 
-👤 Author
-Developed by [Your Name]
-LinkedIn | GitHub
+*
+
+## 📌 Notes
+
+> ✅ Do **not** upload the `node_modules/` folder to GitHub. Add it in your `.gitignore` file.
+
+## 👤 Author
+
+> Developed by \[Your Name]
+> [LinkedIn](https://linkedin.com/in/your-profile) | [GitHub](https://github.com/your-username)
