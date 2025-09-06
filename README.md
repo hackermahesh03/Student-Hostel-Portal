@@ -80,8 +80,3 @@ HostelManagementSystem/
 ## 📌 Notes
 
 > ✅ Do **not** upload the `node_modules/` folder to GitHub. Add it in your `.gitignore` file.
-
-## 👤 Author
-
-> Developed by Mahesh Babu Nettem
-> [LinkedIn](www.linkedin.com/in/mahesh-babu-nettem-654065356) | [GitHub]([https://github.com/your-username](https://github.com/hackermahesh03))
