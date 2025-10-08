@@ -15,7 +15,7 @@ A full-stack web application designed to streamline hostel management for studen
 * **Backend**: Node.js + Express.js
 * **Database**: MongoDB
 * **Authentication**: JWT-based
-* **Others**: Nodemon, MongoDB Compass, .env configuration
+* **Others**: MongoDB Compass, .env configuration
 
 ## 📂 Project Structure
 
